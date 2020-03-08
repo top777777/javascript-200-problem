@@ -6,7 +6,7 @@ console.log(add(1, 2));
 
 const printArguments = () => {
   console.log(arguments);
-}
+};
 printArguments(1, 2, 3);
 
 const sum = (...args) => {
@@ -15,9 +15,9 @@ const sum = (...args) => {
     total += args[i];
   }
   return total;
-}
+};
 console.log(sum(1, 2, 3));
 
 setTimeout(() => {
   console.log("화살표 함수! ");
-})
+}, 10);
