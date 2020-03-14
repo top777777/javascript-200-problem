@@ -1,8 +1,8 @@
-this.valueA = "a";
+/*this.valueA = 'a';
 console.log(valueA);
 valueB = "b";
 console.log(this.valueB);
-
+*/
 function checkThis() {
   console.log(this);
 }
